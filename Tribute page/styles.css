@@ -76,8 +76,12 @@ p{
 }
 
 @media only screen and (max-width: 600px) {
-  padding {
-    width: 15rem;
+  p {
+    width: 25rem;
+  }
+
+  h1{
+    margin: 0 30px;
   }
 }
 
@@ -150,29 +154,27 @@ figcaption{
 
 footer{
   background-color: #001219;
-  padding: auto;
+  padding: 10px 0;
 }
 
 footer h3{
   text-align: center;
   color: #d0d2d4;
   font-family: 'Philosopher', sans-serif;
-  height: 40%;
   font-size: 35px;
   margin: 0 0;
-  padding: 30px 20px;
+  padding: 20px;
 }
 
 .link{
-  display: flex;
-  justify-content: center;
+  display: block;
+  text-align: center;
 }
 
 .link img{
-  display: block;
   width: 200px;
   max-width: 100%;
-  margin-top: -14em;
+  margin-top: 15px;
 }
  
 
